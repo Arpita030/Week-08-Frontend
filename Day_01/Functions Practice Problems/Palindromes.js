@@ -1,0 +1,8 @@
+function isPalindrome(num) {
+    let original = num.toString();
+    let reversed = original.split('').reverse().join('');
+    return original === reversed;
+}
+
+console.log(isPalindrome(121)); 
+console.log(isPalindrome(123)); 
